@@ -28,14 +28,9 @@ if file:
 
     col2.write("Natijalar 🧬 🧠")
     with col2:
-        list = ["cataract","diabetic_retinopathy","glaucoma","normal"]
-        for i in list:
-            if i != pred :
-                st.success(f"Bashorat : {pred}")
-                st.info(f"Ehtimollik : {probs[pred_id]*100:.1f}%") 
-            else :
-                st.success(f"Bashorat : Aloqasiz Rasm")
-                st.info(f"Ehtimollik : 100 %")
+        st.success(f"Bashorat : {pred}")
+        st.info(f"Ehtimollik : {probs[pred_id]*100:.1f}%")
+                 
         
     col3.write("Bashorat aniqlik Grafigi 📈")
     with col3:
