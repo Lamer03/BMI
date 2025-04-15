@@ -5,7 +5,7 @@ import plotly.express as px
 
 
 
-st.write("## BMI")
+st.write("## Tibbiy tasvirlar asosida ko'z kassaliklarini aniqlash.")
 st.write(
     ":hospital: Malumot dastur haqida"
 )
