@@ -5,7 +5,7 @@ import plotly.express as px
 
 
 
-st.write("## Tibbiy tasvirlar asosida ko'z kassaliklarini aniqlash.")
+st.write("## Tibbiy tasvirlar asosida ko‘z kasalliklarini aniqlash"")
 st.write(
     ":hospital: Malumot dastur haqida"
 )
