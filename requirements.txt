@@ -1,2 +1,2 @@
-fastai
+fastai==1.0.58
 plotly
